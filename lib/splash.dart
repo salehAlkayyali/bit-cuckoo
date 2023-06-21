@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'onBoarding.dart';
-
 
 class Splash extends StatelessWidget {
   const Splash({

@@ -1,15 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
 
+
 class Login extends StatelessWidget {
   const Login({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    final screenSize = MediaQuery.of(context).size;
-    final maxWidth = screenSize.width;
-    final maxHeight = screenSize.height;
-
     return Scaffold(
       backgroundColor: Color(0xFF5927FF),
       body: SafeArea(

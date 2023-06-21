@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
-
 import 'Login.dart';
 
 class OnBoarding extends StatelessWidget {
@@ -11,7 +10,6 @@ class OnBoarding extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final screenSize = MediaQuery.of(context).size;
-    final maxWidth = screenSize.width ;
     final maxHeight = screenSize.height;
 
     return Scaffold(
